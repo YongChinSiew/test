@@ -7,7 +7,7 @@ pipeline {
         pwd(tmp: true)
       }
     }
-    stage('') {
+    stage('error') {
       steps {
         build 'test1233'
       }
