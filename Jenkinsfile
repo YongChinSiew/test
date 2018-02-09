@@ -7,9 +7,9 @@ pipeline {
         pwd(tmp: true)
       }
     }
-    stage('error') {
+    stage('test2') {
       steps {
-        build 'test1233'
+        echo 'test2'
       }
     }
   }
